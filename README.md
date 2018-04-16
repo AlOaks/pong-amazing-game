@@ -10,25 +10,25 @@ Technologies used: Webpack, Plain JS, HTML, CSS.
 
 This game was made for two players. 
 
-The Player who reaches 15 points is the winner.
+The Player who reaches 15 points is the winner. <br>
 The loser will have to do one of the random challenges displayed on screen at the end.
 
-After one player reaches 5 points; a second ball will be triggered.
+After one player reaches 5 points; a second ball will be triggered. <br>
 After one player reaches 10 points a third ball will be triggered as well as his/her paddle size & color will be changed. 
 
 ### Player 1 keys:
 
-UP = A
+UP = A</br>
 DOWN = Z
 
 ### Player 2 keys:
 
-UP = Arrow Up
+UP = Arrow Up<br>
 Down = Arrow Down
 
 ### Other Controls
 
-Press Enter to Start a New Game.
+Press Enter to Start a New Game. <br>
 Press Space to Pause the game.
 
 
