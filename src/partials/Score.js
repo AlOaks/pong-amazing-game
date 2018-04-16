@@ -1,1 +1,21 @@
 import {SVG_NS} from "../settings.js";
+
+export default class Score {
+    constructor(x, y, size, color) {
+        this.x = x;
+        this.y = y;
+        this.size = size;
+        this.color = color || "#9DD1F1";
+    }
+
+    render(svg, score) {
+        let text = document.createElementNS(SVG_NS, 'text');
+        text.setAttributeNS(null, 'x', this.x);
+        text.setAttributeNS(null, 'y', this.y);
+        text.setAttributeNS(null, 'font-family', "'Silkscreen Web', monotype");
+        text.setAttributeNS(null, 'font-size', this.size);
+        text.setAttributeNS(null, 'fill', this.color);
+        text.textContent = score;
+        svg.appendChild(text);
+    }
+}
