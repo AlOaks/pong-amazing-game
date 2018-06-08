@@ -19,7 +19,7 @@ export default class Game {
 		this.gameEnd = false;
 		this.paddle1resized = false;
 		this.paddle2resized = false;
-		this.winner = new Audio("../public/sounds/winner.wav");
+		this.winner = new Audio("./public/sounds/winner.wav");
 		this.pauseSound = new Audio("../public/sounds/pause.wav");
 		this.startSound = new Audio("../public/sounds/start.wav");
 		this.winnerText = "";
