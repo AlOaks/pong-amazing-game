@@ -63,6 +63,7 @@ module.exports = {
 	},
 
 	plugins: [
+		new webpack.LoaderOptionsPlugin({ options: {} }),
 		new OpenBrowserPlugin({ url: 'http://localhost:3000/' }),
 	]
 };
